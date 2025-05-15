@@ -1,0 +1,38 @@
+.page-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.page-banner {
+  width: 1904px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  margin-top: -33px;
+  margin-left: -452px;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.service-card {
+  flex: 1 1 250px;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+}

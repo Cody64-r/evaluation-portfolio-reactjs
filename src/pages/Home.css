@@ -1,0 +1,112 @@
+.home {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background-image: url('/public/img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.btn-hero {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.about-skills {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem auto;
+  max-width: 1200px;
+  gap: 2rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+.about {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.about-content img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.skills {
+  flex: 1;
+  min-width: 300px;
+}
+
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill p {
+  margin: 0 0 5px;
+}
+
+.bar {
+  height: 10px;
+  background-color: #e0e0e0;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.bar.html::after {
+  width: 90%;
+  background-color: red;
+}
+
+.bar.css::after {
+  width: 80%;
+  background-color: cyan;
+}
+
+.bar.js::after {
+  width: 70%;
+  background-color: orange;
+}
+
+.bar.php::after {
+  width: 60%;
+  background-color: green;
+}
+
+.bar.react::after {
+  width: 50%;
+  background-color: blue;
+}

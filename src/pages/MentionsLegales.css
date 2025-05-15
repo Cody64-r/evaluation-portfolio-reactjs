@@ -1,0 +1,52 @@
+.legal-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.legal-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-top: 1px solid #ddd;
+}
+
+.accordion-item:first-child {
+  border-top: none;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+  background: #e8f0fe;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  padding: 1rem;
+  background: white;
+  border-top: 1px solid #ccc;
+}
+
+.accordion-content p {
+  margin-bottom: 0.5rem;
+}
+
+.accordion-content a {
+  color: #007bff;
+  text-decoration: none;
+}
